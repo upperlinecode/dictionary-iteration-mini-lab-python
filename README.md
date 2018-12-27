@@ -2,7 +2,17 @@
 
 ### The goal
 
-In this lab, you'll start to deal with dictionaries that organize data more and more clearly. We'll start with a list of favorite books, but each book is keyed to a person's name.
+In this lab, you'll start to deal with dictionaries that organize data more and more clearly. We'll start with a list of favorite books, but each book is keyed to a person's name. (This code is in the 
+
+```Python 
+favorite_books = {
+  "diana": "Crime and Punishment",
+  "sophie": "The Secret History",
+  "zara": "Rebecca",
+  "david": "The Sun Also Rises",
+  "alexandra": "Hyperbole and a Half"
+}
+```
 
 For example, to print Zara's favorite book, you'd use the code `print(favorite_books["zara"])`.
 
@@ -32,12 +42,12 @@ If you need a boost, you can see answers to challenge 1 and challenge 3.
 <details>
   <summary> Click to see a solution to challenge 1 </summary>
 
-  ```Ruby
+  ```Python
 
-    # Reassign values for a key in a hash the same way we replace items in an array:
-    favorite_books[:jeff] = "The Martian"
+    # Reassign values for a key in a dictionary the same way we replace items in an list:
+    favorite_books["jeff"] = "The Martian"
     # You can print it out to check whether it works by also including this line of debugging code:
-    puts favorite_books[:jeff]
+    print(favorite_books["jeff"])
 
   ```
 
