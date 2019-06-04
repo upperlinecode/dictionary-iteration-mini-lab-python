@@ -1,4 +1,4 @@
-import address_book.py
+import address_book
 
 # Here's a small dictionary of favorite books, each keyed to a different person.
 favorite_books = {
@@ -41,7 +41,7 @@ favorite_books = {
 
 # LEVEL 2: In the address_book.py file, there's a list called "contacts" with 100 dictionaries inside of it. Each dictionary representes a person, and has that person's name, phone number, email, the company they work for, and their address.
 #    That means you could print the 7th person's email using this line of code:
-#    print(contacts[6]["email"]) # Uncomment this to see if it works. (Remember, list indexing starts at zero, so we use the number 6 to access the 7th name).
+#    print(address_book.contacts[6]["email"]) # Uncomment this to see if it works. (Remember, list indexing starts at zero, so we use the number 6 to access the 7th name).
 
 # 4. Print out the name and phone number of the first person in the contacts list in the following format:
 #    "_____ can be reached at ______" filling in the blanks with the person's name and phone number.
