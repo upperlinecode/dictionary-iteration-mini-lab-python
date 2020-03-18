@@ -1,5 +1,7 @@
 # Dictionary Iteration Practice
 
+[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/dictionary-iteration-mini-lab-python)](https://repl.it/github/upperlinecode/dictionary-iteration-mini-lab-python)
+
 ### The goal
 
 In this lab, you'll start to deal with dictionaries that organize data more and more clearly. We'll start with a list of favorite books, but each book is keyed to a person's name.
