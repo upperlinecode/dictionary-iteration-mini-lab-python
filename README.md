@@ -6,9 +6,9 @@
 
 In this lab, you'll start to deal with dictionaries that organize data more and more clearly. We'll start with a list of favorite books, but each book is keyed to a person's name.
 
-For example, to print Zara's favorite book, you'd use the code `print(address_book.favorite_books["zara"])`.
+For example, to print Zara's favorite book, you'd use the code `print(favorite_books["zara"])`.
 
-Open up iterate.py, code out solutions to the challenges, and enter the command `python iterate.py` in the console when you're ready to run it.
+Open up iterate.py, code out solutions to the challenges, and enter the command `python3 iterate.py` in the console when you're ready to run it.
 
 ### Tips, examples, & answers
 
